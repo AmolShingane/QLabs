@@ -1,0 +1,21 @@
+{
+  "name": "spurqlab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^7.2.0",
+    "xlsx": "^0.16.9"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amol",
+  "license": "ISC"
+}
